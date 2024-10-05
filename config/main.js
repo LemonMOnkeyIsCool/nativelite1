@@ -1,6 +1,6 @@
 // This changes the title of your site
 
-var sitename = "native."; // Change this to change the name of your website.
+var CoolKid = "native."; // Change this to change the name of your website.
 var subtext = "v1.2"; // set the subtext
 
 // more settings in main.css
@@ -14,7 +14,7 @@ import "/./config/custom.js";
 
 var serverUrl1 = "https://parcoil-assets.onrender.com";
 var currentPageTitle = document.title;
-document.title = `${currentPageTitle} | ${sitename}`;
+document.title = `${currentPageTitle} | ${CoolKid}`;
 let gamesData = []; 
 
 function displayFilteredGames(filteredGames) {
@@ -66,7 +66,7 @@ document
   .getElementById("searchInput")
   .addEventListener("input", handleSearchInput);
 
-document.getElementById("title").innerHTML = `${sitename}`;
+document.getElementById("title").innerHTML = `${CoolKid}`;
 
 document.getElementById("subtitle").innerHTML = `${subtext}`
 
